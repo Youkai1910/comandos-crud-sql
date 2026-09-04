@@ -30,3 +30,12 @@ INSERT INTO produtos (nome, descricao, preco, quantidade, fornecedor_id) VALUES 
     4 -- id fornecedor Eletrônicos Tabajara
 );
 ``` 
+```sql
+INSERT INTO produtos (nome, descricao, preco, quantidade, fornecedor_id) VALUES (
+    'TV led',
+    'Tela de 50 polegadas, resolução 4k, 4 entradas hdmi e etc e tal', 
+    3420,
+    12,
+    1 -- id fornecedor Eletrônicos Tabajara
+);
+``` 
