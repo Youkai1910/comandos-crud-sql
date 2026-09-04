@@ -2,5 +2,5 @@
 
 ## usuario
 ```sql
-INSERT INTO usuario VALUES(nome)
-```
+INSERT INTO usuarios(nome, email, senha, tipo) VALUES ()
+``
