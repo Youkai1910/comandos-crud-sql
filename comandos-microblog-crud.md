@@ -3,4 +3,4 @@
 ## usuario
 ```sql
 INSERT INTO usuarios(nome, email, senha, tipo) VALUES ()
-``
+```
