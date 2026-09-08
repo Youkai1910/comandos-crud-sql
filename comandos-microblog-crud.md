@@ -47,25 +47,24 @@ INSERT INTO noticias(titulo, resumo, texto, destaque, imagem, usuario_id, catego
 
 ----
 
-## UPDATE usuarios
+## UPDATE na tabela usuarios
 ```sql
 UPDATE usuarios 
 SET nome = 'Ana Silva Souza' 
 WHERE id = 1;
 ```
-## UPDATE tipo_usuario
 ```sql
 UPDATE usuarios 
 SET tipo = 'admin' 
 WHERE id = 3;
 ```
-## UPDATE categoria
+## UPDATE na tabela categorias
 ```sql
 UPDATE categorias 
 SET nome = 'Entretenimento e Lazer' 
 WHERE id = 3;
 ```
-## UPDATE noticias, titulo, destaque, categoria_id
+## UPDATE na tabela noticias
 ```sql
 UPDATE noticias 
 SET titulo = 'Novas Tecnologias mudam o dia a dia de todos' 
@@ -73,13 +72,23 @@ WHERE id = 1;
 ```
 ```sql
 UPDATE noticias 
-SET destaque = 'sim' 
-WHERE id = 2;
+SET destaque = 'sim' WHERE id = 2;
 ```
 ```sql
 UPDATE noticias 
-SET categoria_id = 1 
-WHERE id = 4;
+SET categoria_id = 1 WHERE id = 4;
+```
+## DELETE na tabela de noticias
+```sql
+DELETE FROM noticias WHERE id = 4;
+```
+## DELETE na tabela de categorias
+```sql
+DELETE FROM categorias WHERE id = 3;
+```
+## DELETE na tabela de usuarios
+```sql
+DELETE FROM usuarios WHERE id = 2;
 ```
 
 
