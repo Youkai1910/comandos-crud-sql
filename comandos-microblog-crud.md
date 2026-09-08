@@ -43,4 +43,15 @@ INSERT INTO noticias(titulo, resumo, texto, destaque, imagem, usuario_id, catego
 'senac.jpg',
 3,
 2);
+```
+
+----
+
+## UPDATE usuarios
+```sql
+UPDATE usuarios 
+SET nome = 'Ana Silva Souza' 
+WHERE id = 1;
+```
+
 
