@@ -29,7 +29,7 @@ INSERT INTO noticias(titulo, resumo, texto, destaque, imagem, usuario_id, catego
 'A Educação Salva o Futuro',
 'A educação de qualidade é o pilar central para transformar a sociedade, salvar o futuro e moldar as próximas gerações frente às rápidas mudanças globais. Em um mundo cada vez mais digital, o papel do ensino vai muito além da memorização: ele desenvolve o pensamento crítico, a empatia e a capacidade de adaptação necessárias para os desafios que vêm pela frente.',
 'educacao.jpg',
-'sim',
+'nao',
 3,
 2
 ),
@@ -40,5 +40,13 @@ INSERT INTO noticias(titulo, resumo, texto, destaque, imagem, usuario_id, catego
 'sim',
 2,
 3
+),
+(
+'Senac 2027'
+'Senac tem novos cursos para 2027',
+'Cursos do Senac são bons e tem em varias categorias',
+'sim',
+3,
+2
 );
 
