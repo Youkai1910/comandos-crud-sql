@@ -53,5 +53,33 @@ UPDATE usuarios
 SET nome = 'Ana Silva Souza' 
 WHERE id = 1;
 ```
+## UPDATE tipo_usuario
+```sql
+UPDATE usuarios 
+SET tipo = 'admin' 
+WHERE id = 3;
+```
+## UPDATE categoria
+```sql
+UPDATE categorias 
+SET nome = 'Entretenimento e Lazer' 
+WHERE id = 3;
+```
+## UPDATE noticias, titulo, destaque, categoria_id
+```sql
+UPDATE noticias 
+SET titulo = 'Novas Tecnologias mudam o dia a dia de todos' 
+WHERE id = 1;
+```
+```sql
+UPDATE noticias 
+SET destaque = 'sim' 
+WHERE id = 2;
+```
+```sql
+UPDATE noticias 
+SET categoria_id = 1 
+WHERE id = 4;
+```
 
 
