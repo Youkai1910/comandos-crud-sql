@@ -97,3 +97,13 @@ Exibir produtos  que tem fornecedor ID 1, 4 ou 8.
 ```sql
 SELECT * FROM produtos WHERE fornecedor_id IN (1, 4, 8);
 ```
+
+
+Sem usar o `IN`, teriamos que fazer a lógica com multiplos  `OR`.
+
+```sql
+SELECT * FROM produtos WHERE 
+fornecedor_id = 1 OR
+fornecedor_id = 4 OR
+fornecedor_id = 8;
+```
