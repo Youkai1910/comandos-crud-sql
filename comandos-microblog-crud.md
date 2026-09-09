@@ -56,8 +56,7 @@ UPDATE usuarios SET tipo = 'admin' WHERE id = 3;
 ```
 ## UPDATE na tabela categorias
 ```sql
-UPDATE categorias 
-SET nome = 'Entretenimento e Lazer' WHERE id = 3;
+UPDATE categorias SET nome = 'Diversão' WHERE id = 3;
 ```
 ## UPDATE na tabela noticias
 ```sql
