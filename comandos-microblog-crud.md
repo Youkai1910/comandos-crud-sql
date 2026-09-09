@@ -49,8 +49,7 @@ INSERT INTO noticias(titulo, resumo, texto, destaque, imagem, usuario_id, catego
 
 ## UPDATE na tabela usuarios
 ```sql
-UPDATE usuarios 
-SET nome = 'Ana Silva Souza' WHERE id = 1;
+UPDATE usuarios SET nome = 'Ana Souza' WHERE id = 1;
 ```
 ```sql
 UPDATE usuarios SET tipo = 'admin' WHERE id = 3;
