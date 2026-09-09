@@ -63,12 +63,10 @@ UPDATE categorias SET nome = 'Diversão' WHERE id = 3;
 UPDATE noticias SET titulo = 'Novas Tecnologias ' WHERE id = 1;
 ```
 ```sql
-UPDATE noticias 
-SET destaque = 'sim' WHERE id = 2;
+UPDATE noticias SET destaque = 'sim' WHERE id = 2;
 ```
 ```sql
-UPDATE noticias 
-SET categoria_id = 1 WHERE id = 4;
+UPDATE noticias SET categoria_id = 1 WHERE id = 4;
 ```
 ## DELETE na tabela de noticias
 ```sql
