@@ -98,7 +98,6 @@ Exibir produtos  que tem fornecedor ID 1, 4 ou 8.
 SELECT * FROM produtos WHERE fornecedor_id IN (1, 4, 8);
 ```
 
-
 Sem usar o `IN`, teriamos que fazer a lógica com multiplos  `OR`.
 
 ```sql
@@ -106,4 +105,13 @@ SELECT * FROM produtos WHERE
 fornecedor_id = 1 OR
 fornecedor_id = 4 OR
 fornecedor_id = 8;
+```
+### LIKE
+
+`LIKE` é usado principalmente para realizar pesquisas em textos. Junto com caractere `%` permite fazer buscas baseadas em partes de uma string.
+
+Exemplo: procurar produtos que tenham a palavra **Gamer** em qualquer posição do nome.
+
+```sql
+SELECT nome, preco FROM produtos WHERE nome LIKE '%Gamer';
 ```
