@@ -290,3 +290,20 @@ O `JOIN` permite **combinar informações de tabelas
 relacionadas** na consulta com `SELECT`.
 
 ### INNER JOIN entre produtos e fornecedores
+
+Exibir nome dos fornecedores de cada produto:
+
+```sql
+SELECT
+-- tabela.coluna AS apelido
+-- especialmente para colunas com o mesmo nome
+produtos.nome AS produtos, produtos.preco, fornecedores.nome AS fornecedor
+FROM produtos 
+
+-- Fazendo a junção entre a tabelas
+-- Neste caso, produtos com fornecedores
+INNER JOIN fornecedores
+
+-- Definindo a condição de CRUZAMENTO entre as tabelas 
+ ON produtos.fornecedor_id = fornecedores.id;
+```
