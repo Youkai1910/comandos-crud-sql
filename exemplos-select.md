@@ -356,3 +356,14 @@ WHERE produtos.preco > 1000;
 
 Objetivo: descobrir qual produto é vendido em qual loja e
 qual é seu estoque naquela loja.
+
+```sql
+SELECT 
+    l.nome AS Loja,
+    p.nome AS Produto,
+    lp.estoque AS `Estoque na Loja`
+FROM lojas_produtos lp
+INNER JOIN lojas l ON lp.loja_id = l.id
+INNER JOIN produtos p ON lp.produto_id = p.id
+ORDER BY l.nome, p.nome;
+```
