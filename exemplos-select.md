@@ -276,10 +276,10 @@ ORDER BY preco_medio DESC;
 ## JOIN
 
 Até agora consultamos principalmente dados existentes em
-** uma única tabela **.
+**uma única tabela **.
 
-Porém, nosso banco possui informações relacionadas ** entre
-várias tabelas .**
+Porém, nosso banco possui informações relacionadas **entre
+várias tabelas**.
 
 Por exemplo:
 
